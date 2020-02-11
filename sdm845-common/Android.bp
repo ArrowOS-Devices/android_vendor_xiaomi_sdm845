@@ -169,10 +169,3 @@ dex_import {
 	jars: ["proprietary/system/framework/WfdCommon.jar"],
 }
 
-cc_prebuilt_binary {
-	name: "chargeonlymode",
-	owner: "xiaomi",
-	srcs: ["proprietary/bin/chargeonlymode"],
-	prefer: true,
-}
-
