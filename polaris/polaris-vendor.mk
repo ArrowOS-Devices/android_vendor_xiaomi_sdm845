@@ -342,6 +342,4 @@ vintf_fragments += \
     vendor/xiaomi/polaris/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml
 
 PRODUCT_PACKAGES += \
-    CACertService \
-    HotwordEnrollmentOKGoogleWCD9340 \
-    HotwordEnrollmentXGoogleWCD9340
+    CACertService
